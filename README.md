@@ -14,6 +14,18 @@ pnpm dev
 bun dev
 ```
 
+### Passos para configurar o arquivo `.env`
+
+1. **Copiar o arquivo `.env.example`**
+
+   Para começar, você deve criar o arquivo `.env` a partir do arquivo de exemplo fornecido. Para isso, execute o seguinte comando no terminal:
+
+   ```bash
+   cp .env.example .env
+
+   NEXT_PUBLIC_BACKEND_URL="https://api-monetizze.lyamara.com/"
+   ```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
